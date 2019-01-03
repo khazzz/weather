@@ -1,0 +1,22 @@
+:required  {  
+ background: url(/resources/images/asterisk-small.png) no-repeat;
+ background-position:right top;
+}
+	
+#loading-indicator {
+  display:none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+  z-index: 1000;
+}
+
+.overflow-wrap {
+  overflow-wrap: break-word;
+}
+
+a.user-right-margin {
+    margin-right: 10px;
+}
