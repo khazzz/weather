@@ -6,12 +6,6 @@ $(function () {
 	.ajaxStart(function(){
 	    $("#loading-indicator").show();
 	})
-	.ajaxError(function (e, xhr, opts) {
-        if (401 == xhr.status) {
-            document.location.replace("/logout);
-            return;
-        }
-    })
 	.ajaxStop(function(){
 	    $("#loading-indicator").hide();
 	});
